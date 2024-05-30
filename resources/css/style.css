@@ -4,9 +4,146 @@ html, body {
     width: 100%;
 }
 
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.inline-icon {
+    display: inline;
+}
+
+.logo {
+    max-width: fit-content;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.section-text,
+.section-visual,
+.cta-input {
+    padding: 1rem;
+    width: 50%;
+}
+
+.section-h2 {
+    font-size: 3rem;
+}
+
+.section-h3 {
+    font-size: 2rem;
+}
+
+/**DEBUGGING BORDERS
+
+.header-nav {
+    border: solid 1px purple;
+}
+
+.section {
+    border-bottom: solid 1px darkred;
+}
+
+.section-text,
+.section-visual,
+.cta-input {
+    border: solid 1px gray;
+}
+
+.section-quote {
+    border: solid 1px darkblue;
+}
+
+.footer-contact,
+.footer-nav,
+.footer-social {
+    border: solid 1px orange;
+} **/
+
 /* Header */
+
+.headernav-link {
+    font-size: 1.25rem;
+    margin-left: 2rem;
+}
+
 /* Hero Section */
-/* Howzit Section */
+
+.hero-cta {
+    display: flex;
+}
+
+.hero-button {
+    margin-left: 1rem;
+}
+
+/* Description Section */
+
+.quote-source {
+    display: flex;
+}
+
 /* CTA Section */
+
 /* Footer */
+
+    .footer {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-content {
+        display: flex;
+        width: 100%;
+    }
+
+    .footer-logo
+    .footer-contact,
+    .footer-nav,
+    .footer-social {
+        display: flex;
+        padding: 1rem;
+        width: 33%;
+    }
+
+    .footer-contact,
+    .footer-nav {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        max-height: 9rem;
+        flex-wrap: wrap;
+    }
+
+    .footer-social {
+        justify-content: space-between;
+    }
+
+    .social-info p {
+        margin-left: 1rem;
+        border-radius: 50%;
+        background-color: aquamarine;
+    }
+
+/* Attribution */
+
+.attribution {
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.attribution p {
+    margin: 0 0.25rem;
+}
+
 /* Media Queries */
