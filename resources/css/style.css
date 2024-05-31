@@ -124,32 +124,6 @@ button:active {
     color: hsl(170, 45%, 43%);
 }
 
-/**DEBUGGING BORDERS
-
-.header-nav {
-    border: solid 1px purple;
-}
-
-.section {
-    border-bottom: solid 1px darkred;
-}
-
-.section-text,
-.section-visual,
-.cta-input {
-    border: solid 1px gray;
-}
-
-.section-quote {
-    border: solid 1px darkblue;
-}
-
-.footer-contact,
-.footer-nav,
-.footer-social {
-    border: solid 1px orange;
-} **/
-
 /* Header */
 
 .header {
@@ -166,7 +140,6 @@ button:active {
 .hero-cta {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .hero-button {
